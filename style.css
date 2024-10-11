@@ -3,6 +3,9 @@ body {
     padding: 0;
     margin: 0;
 }
+.section-padding {
+    padding: 30px 0;
+}
 .container {
     width: 90%;
     margin: 0 auto; 
@@ -21,14 +24,13 @@ body {
 .welcome-section {
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
-padding: 30px 0;
 }
 .abc {
     color:orange;
 }
 /* Welcome-section-CSS-end */
 
-/* Dream-Big-section-start */
+/* Dream-Big-section-CSS-start */
 .left-side a {
     background-color: orange;
     padding: 10px 30px;
@@ -60,6 +62,9 @@ padding: 30px 0;
     border-left: 5px solid;
     border-image:linear-gradient(blue,red);
     border-image-slice: 1;
+}
+.abc {
+    background-position: left;
 }
 
 /* Footer-Section-start */
